@@ -8,6 +8,9 @@
 #![forbid(unsafe_code)]
 
 use std::fmt;
+/// Wallpaper management: per-monitor wallpapers, transitions (swww-style).
+pub mod sigmawallpaper;
+
 use std::collections::BTreeMap;
 
 /// Errors for `AssetError` operations. Fail-fast: invalid input is rejected.
